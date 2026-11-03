@@ -1,7 +1,7 @@
 
 # OpenDAoC Databases Dump
 
-> **Modified version.** This branch is a fork of [OpenDAoC/OpenDAoC-Database](https://github.com/OpenDAoC/OpenDAoC-Database) at commit 98738ab, used by [daoc-sdk](https://github.com/gartmeier/daoc-sdk). Joshua Gartmeier changed `opendaoc-db-core/mob.sql` on 2026-11-02: the 13 NPCs in the guild `Item Merchant` are `DOL.GS.GameBountyMerchant` instead of `DOL.GS.GameMerchant`, so their prices are bounty points instead of copper. Everything else, including the rest of this README, is upstream's. Report problems with this change at daoc-sdk, and anything else upstream.
+> **Modified version.** This branch is a fork of [OpenDAoC/OpenDAoC-Database](https://github.com/OpenDAoC/OpenDAoC-Database) at commit 98738ab, used by [daoc-sdk](https://github.com/gartmeier/daoc-sdk). Joshua Gartmeier made two changes. On 2026-11-02, in `opendaoc-db-core/mob.sql`, the 13 NPCs in the guild `Item Merchant` became `DOL.GS.GameBountyMerchant` instead of `DOL.GS.GameMerchant`, so their prices are bounty points instead of copper. On 2026-11-03, in `opendaoc-db-core/starterequipment.sql`, rows 13, 14, 76, 77, 78 and 109 give Guardians the `leaf_tacuil_*3` armour instead of naming templates that don't exist. Everything else, including the rest of this README, is upstream's. Report problems with these changes at daoc-sdk, and anything else upstream.
 
 This repository contains the latest cleaned up databases dump for use with [OpenDAoC-Core](https://github.com/OpenDAoC/OpenDAoC-Core). 
 
